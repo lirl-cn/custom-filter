@@ -1,0 +1,14 @@
+.lirl-custom-filter-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.lirl-custom-filter-container .anticon-filter{
+    color: #999;
+}
+.lirl-custom-filter-container .anticon-filter.anticon-filter-active{
+    color: #108ee9;
+}
+.lirl-custom-filter-filter  .ant-form-item{
+    margin-bottom: 4px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "custom-filter",
+  "version": "1.0.0",
+  "description": "自定义搜索",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "es": "tsc",
+    "lib": "tsc --outDir lib/ --module commonjs",
+    "build": "npm run es & npm run lib & node copy.js"
+  },
+  "keywords": [
+    "lirl"
+  ],
+  "author": "lirl",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "antd": "^3.9.3",
+    "fs-extra": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts-ts": "^3.1.0",
+    "ts-import-plugin": "^1.5.5",
+    "ts-loader": "^5.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "typescript": "^3.1.1"
+  }
+}
