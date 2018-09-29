@@ -28,5 +28,9 @@
     "css-loader": "^1.0.0",
     "style-loader": "^0.23.0",
     "typescript": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lirl-cn/custom-filter.git"
   }
 }
