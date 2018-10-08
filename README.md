@@ -22,9 +22,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Form, Input, Select} from 'antd';
 import { FormComponentProps } from 'antd/lib/form';
-import CustomFilter from '../src';
+import CustomFilter from 'custom-filter';
 
-import '../src/index.css';
 
 interface DemoProps extends FormComponentProps{
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Form, Button, Icon, Popover, Col } from 'antd';
+import { Form, Button, Icon, Popover } from 'antd';
 const FormItem = Form.Item;
 
 import { hasErrors } from './util'
